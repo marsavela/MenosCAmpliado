@@ -1,0 +1,60 @@
+  0 INCTOP    		,  	,  i: 0  
+  1 GOTOS     		,  	,  e: 31  
+  2 PUSHFP    		,  	,  	
+  3 FPTOP     		,  	,  	
+  4 INCTOP    		,  	,  i: 1  
+  5 EMULT     	p: (1,-3)  ,  p: (1,-3)  ,  p: (1,0)  
+  6 EASIG     	p: (1,0)  ,  	,  p: (1,-4)  
+  7 TOPFP     		,  	,  	
+  8 FPPOP     		,  	,  	
+  9 RET       		,  	,  	
+ 10 PUSHFP    		,  	,  	
+ 11 FPTOP     		,  	,  	
+ 12 INCTOP    		,  	,  i: 1  
+ 13 ESUM      	p: (1,-3)  ,  p: (1,-3)  ,  p: (1,0)  
+ 14 EASIG     	p: (1,0)  ,  	,  p: (1,-4)  
+ 15 TOPFP     		,  	,  	
+ 16 FPPOP     		,  	,  	
+ 17 RET       		,  	,  	
+ 18 PUSHFP    		,  	,  	
+ 19 FPTOP     		,  	,  	
+ 20 INCTOP    		,  	,  i: 2  
+ 21 EPUSH     		,  	,  i: 0  
+ 22 EPUSH     		,  	,  p: (1,-3)  
+ 23 CALL      		,  	,  e: 10  
+ 24 DECTOP    		,  	,  i: 1  
+ 25 EPOP      		,  	,  p: (1,0)  
+ 26 ESUM      	p: (1,-3)  ,  p: (1,0)  ,  p: (1,1)  
+ 27 EASIG     	p: (1,1)  ,  	,  p: (1,-4)  
+ 28 TOPFP     		,  	,  	
+ 29 FPPOP     		,  	,  	
+ 30 RET       		,  	,  	
+ 31 PUSHFP    		,  	,  	
+ 32 FPTOP     		,  	,  	
+ 33 INCTOP    		,  	,  i: 17  
+ 34 EASIG     	i: 9  ,  	,  p: (1,0)  
+ 35 EASIG     	i: 9  ,  	,  p: (1,11)  
+ 36 EASIG     	i: 1  ,  	,  p: (1,12)  
+ 37 EMAYEQ    	p: (1,0)  ,  i: 0  ,  e: 39  
+ 38 EASIG     	i: 0  ,  	,  p: (1,12)  
+ 39 EIGUAL    	p: (1,12)  ,  i: 0  ,  e: 56  
+ 40 EPUSH     		,  	,  i: 0  
+ 41 EPUSH     		,  	,  i: 0  
+ 42 EPUSH     		,  	,  p: (1,0)  
+ 43 CALL      		,  	,  e: 18  
+ 44 DECTOP    		,  	,  i: 1  
+ 45 EPOP      		,  	,  p: (1,13)  
+ 46 EPUSH     		,  	,  p: (1,13)  
+ 47 CALL      		,  	,  e: 2  
+ 48 DECTOP    		,  	,  i: 1  
+ 49 EPOP      		,  	,  p: (1,14)  
+ 50 EVA       	p: (1,1)  ,  p: (1,0)  ,  p: (1,14)  
+ 51 EAV       	p: (1,1)  ,  p: (1,0)  ,  p: (1,15)  
+ 52 EWRITE    		,  	,  p: (1,15)  
+ 53 EASIG     	p: (1,0)  ,  	,  p: (1,16)  
+ 54 EDIF      	p: (1,0)  ,  i: 1  ,  p: (1,0)  
+ 55 GOTOS     		,  	,  e: 36  
+ 56 EASIG     	i: 0  ,  	,  p: (1,-3)  
+ 57 TOPFP     		,  	,  	
+ 58 FPPOP     		,  	,  	
+ 59 FIN       		,  	,  	

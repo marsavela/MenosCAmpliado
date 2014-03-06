@@ -1,0 +1,9 @@
+alex.o
+asin.o
+lexico.o
+principal.o
+*.?~
+alex.c
+asin.c
+include/asin.h
+asin-yac.output
